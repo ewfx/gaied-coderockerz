@@ -3,14 +3,10 @@
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
-- [Demo](#demo)
-- [Inspiration](#inspiration)
-- [What It Does](#what-it-does)
 - [How We Built It](#how-we-built-it)
 - [Challenges We Faced](#challenges-we-faced)
 - [How to Run](#how-to-run)
 - [Tech Stack](#tech-stack)
-- [Team](#team)
 
 ---
 
@@ -62,5 +58,19 @@ pip install python-dotenv google-cloud-aiplatform
    ```sh
    python my_script.py
    ```
+
+Challenges Faced:
+Challenges:
+	1.	Handling Ambiguity in Language
+	•	Emails and documents often contain vague or context-dependent information, making accurate classification difficult.
+	2.	Data Privacy & Security
+	•	Ensuring compliance with GDPR, HIPAA, or internal corporate policies when processing sensitive data.
+	3.	Integration with Legacy Systems
+	•	Many organizations rely on outdated infrastructure, making seamless AI integration complex.
+	4.	Scalability & Performance
+	•	Handling large volumes of unstructured data efficiently while maintaining low latency in routing.
+	5.	Bias & Model Accuracy
+	•	Avoiding bias in AI predictions and ensuring high accuracy across different languages, industries, and document formats.
+
 Tech Used: Python
 
